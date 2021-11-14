@@ -1,13 +1,13 @@
-Proje IntelliJ IDEA ile acilmalidir.
+# Requirements  
 
-IntelliJ IDEA Plugin olarak Gherkin ve Cucumber For Java pluginleri yuklenmelidir.
-
-Bunun icin ayarlardan plugin sekmesinden arama cubuguna Cucumber yazinca ilgili pluginler listelenmektedir. 
-
-
-src/test/java/tests altindaki DemoFeature.feature dosyasi acilip run edilmelidir ve response u ekrana yazdirdigi gorulmelidir.
-
-Terminalden mvn test -Dtest=MyRunner komutu calisitirilmali ve response u yine terminale cikti olarak yazdirdigi gorulmelidir. 
+* Intellij IDE should be installed
+  * https://www.jetbrains.com/idea/download/
 
 
+* IntelliJ IDEA `Gherkin` and `Cucumber For Java` plugins should be installed
 
+
+* `DemoFeature.feature` file at `src/test/java/tests` should be run and the response should be verified on the log console.
+
+
+* `mvn test -Dtest=MyRunner` command should be executed on terminal and the response should be verified on the log console.
