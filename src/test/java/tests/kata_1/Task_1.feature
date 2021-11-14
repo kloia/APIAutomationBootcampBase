@@ -5,7 +5,8 @@ Feature: My first kata tests
   Scenario: first print task
     * print 'Hello World!'
     * karate.log("my first log!")
-    
+
+
   Scenario: variables printing
     * def myVar = "Hello World"
     * def mySecondVar = 15

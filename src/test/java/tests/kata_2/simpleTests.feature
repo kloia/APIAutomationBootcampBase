@@ -9,3 +9,13 @@ Feature: kata 2 simple tests
     * def myVar = read('classpath:data/myJson.json')
     * set myVar.category.name = 'my_name'
     * print myVar
+
+
+  Scenario Outline: printing table variables
+    * print id
+    Examples:
+      | id  |
+      | 250 |
+      | 251 |
+      | 252 |
+
