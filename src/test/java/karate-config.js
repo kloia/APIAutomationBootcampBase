@@ -5,10 +5,7 @@ function fn() {
         env = 'dev'; // a custom 'intelligent' default
     }
     var config = { // base config JSON
-        appId: 'my.app.id',
-        appSecret: 'my.secret',
-        someUrlBase: 'https://some-host.com/v1/auth/',
-        anotherUrlBase: 'https://another-host.com/v1/'
+        baseUrl: 'https://petstore.swagger.io/v2/'
     };
     if (env == 'stage') {
         // over-ride only those that need to be
